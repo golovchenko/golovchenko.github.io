@@ -10,7 +10,7 @@
   "text": {
     "title": "MH 17 Related Videos",
     "more": "",
-    "intro": ""
+    "intro": "Node size reflects in-degree centrality"
   },
   "legend": {
     "edgeLabel": "simmilar video",
@@ -20,11 +20,11 @@
   "features": {
     "search": true,
     "groupSelectorAttribute": false,
-    "hoverBehavior": "default"
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "imageAttribute": "Label",
-    "groupByEdgeDirection": false
+    "groupByEdgeDirection": true
   },
   "sigma": {
     "graphProperties": {
