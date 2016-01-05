@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Yevgeniy",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "MH 17: Related Videos",
+    "more": "You can see the \"direction\" - which video leads to which video - by clicking on the individual node. \"Incoming\" shows videos in the network that lead to the selected video. \"Outgoing\" shows the videos which the selected video leads to. ",
+    "intro": "Each node represents a video. If Youtube classifies two videos as \"similar\" in the list of sugested videos, a link will be estabelished between the two.\n"
+  },
+  "legend": {
+    "edgeLabel": "simmilar video",
+    "colorLabel": "affilliation",
+    "nodeLabel": "videos"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "channeltitle",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": "channeltitle",
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
